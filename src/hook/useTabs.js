@@ -2,10 +2,10 @@ import { useState } from "react";
 
 export const content = [
   {
-    tab: "Section 1",
-    content: "1",
+    tab: "useTabs 1",
+    content: "useTabs content 1",
   },
-  { tab: "Section 2", content: "2" },
+  { tab: "useTabs 2", content: "useTabs content 2" },
 ];
 
 export const useTabs = (initialTab, allTabs) => {
